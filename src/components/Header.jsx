@@ -19,7 +19,7 @@ const Header = () => {
     <header className="flex justify-between items-center p-4">
       <Link className="flex items-center gap-2" to="/">
         <img className="w-[50px]" src="/public/youtube.png" />
-        <h1 className="text-2xl font-mono max-sm:hidden">SenTüp</h1>
+        <h1 className="text-2xl font-mono max-sm:hidden">YouTube</h1>
       </Link>
 
       <form
