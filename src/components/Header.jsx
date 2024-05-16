@@ -1,22 +1,25 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
 import { IoIosNotifications } from "react-icons/io";
 import { FaVideo } from "react-icons/fa6";
 import { MdVideoLibrary } from "react-icons/md";
 
 const Header = () => {
+  const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    // Arama içerisi boş olursa çalıştırma
     const text = e.target[0].value;
     if (text.trim() === "") return;
+
+    navigate(`/results?search_query=${text}`);
   };
 
   return (
     <header className="flex justify-between items-center p-4">
       <Link className="flex items-center gap-2" to="/">
         <img className="w-[50px]" src="/public/youtube.png" />
-        <h1 className="text-2xl font-mono max-sm:hidden">Youtube</h1>
+        <h1 className="text-2xl font-mono max-sm:hidden">SenTüp</h1>
       </Link>
 
       <form

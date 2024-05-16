@@ -2,8 +2,9 @@
 
 -Tailwind
 -React-icons
--react-router-dom
--react-player
--millify
--moment
--axios
+-React-router-dom
+-React-player
+-Millify
+-Moment
+-Axios
+-UUID
