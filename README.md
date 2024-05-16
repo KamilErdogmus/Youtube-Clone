@@ -14,7 +14,7 @@ React ile yt-api kullanarak youtube-clone projesi geliştirildi.
 
 # GIF
 
-[](YT_GIF.gif)
+![](YT_GIF.gif)
 
 # Link
 
