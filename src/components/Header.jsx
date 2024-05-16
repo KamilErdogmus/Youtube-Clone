@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className="flex justify-between items-center p-4">
       <Link className="flex items-center gap-2" to="/">
-        <img className="w-[50px]" src="/public/youtube.png" />
+        <img className="w-[50px]" src="./../../youtube.png" />
         <h1 className="text-2xl font-mono max-sm:hidden">YouTube</h1>
       </Link>
 

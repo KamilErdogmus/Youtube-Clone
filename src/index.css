@@ -5,7 +5,7 @@
 body {
   background-color: black;
   color: white;
-  overflow: hidden;
+  overflow: auto;
 }
 .videos {
   gap: 50px;
