@@ -23,14 +23,14 @@ const ChannelInfo = ({ video }) => {
       </div>
 
       {/* Sağ Kısım */}
-      <div className="flex gap-6 items-center">
-        <button className="rounded-[60px] bg-slate-500 px-[20px] text-black h-12 text-xl hover:scale-110 hover:bg-gray-100 transition">
+      <div className="flex gap-3 items-center">
+        <button className="rounded-[60px] bg-slate-500 px-[20px] text-black h-14  text-xl hover:scale-110 hover:bg-gray-100 transition">
           Abone Ol
         </button>
         <div className="flex items-center justify-center bg-gray-400 rounded-full h-12">
           <button className="p-4 hover:opacity-75 text-2xl mr-1 flex gap-3">
             <IoMdThumbsUp />
-            <span className="text-sm border-r pr-5 items-center pt-1">
+            <span className="text-sm border-r pr-2 items-center pt-1">
               {millify(video.likeCount)}
             </span>
           </button>
