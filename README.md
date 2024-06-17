@@ -1,21 +1,37 @@
-# Açıklama
+# YouTube Clone Project
 
-React ile yt-api kullanarak youtube-clone projesi geliştirildi.
+This project is a YouTube clone developed using React and the YouTube API. It allows users to search for videos, view video details, and watch videos within the application.
 
-# Kullanılan Kütüphaneler
+## Features
 
-- Tailwind
-- React-icons
-- React-router-dom
-- React-player
-- Millify
-- Moment
-- Axios
+- **Search**: Search for videos using the YouTube API.
+- **Video Player**: Watch videos within the application using the React Player library.
+- **Video Details**: View details about each video, including title, description, and upload date.
+- **Responsive Design**: The application is fully responsive, ensuring a seamless experience across different devices.
 
-# GIF
+## Libraries Used
 
-![](YT-GIF.gif)
+- **Tailwind CSS**: A utility-first CSS framework used for styling.
+- **React-icons**: Provides icons for the application's user interface.
+- **React-router-dom**: Handles routing within the application.
+- **React-player**: Integrates the YouTube video player into the application.
+- **Millify**: Formats numbers, such as video views and likes, for better readability.
+- **Moment**: Formats dates, such as video upload dates, for better readability.
+- **Axios**: Handles HTTP requests to the YouTube API.
 
-# Link
+## Preview
 
-[Website](https://keen-frangipane-b484ce.netlify.app)
+![YouTube Clone GIF](YT-GIF.gif)
+
+## Deployment
+
+The project is deployed and can be accessed [here](https://keen-frangipane-b484ce.netlify.app).
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+2. Navigate to the project directory: `cd your-repository`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
