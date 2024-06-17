@@ -29,8 +29,6 @@ The project is deployed and can be accessed [here](https://keen-frangipane-b484c
 
 ## Installation
 
-## Installation
-
 To run the project locally, follow these steps:
 
 1. Clone the repository:
@@ -58,4 +56,4 @@ npm install
 npm start
 ```
 
-5.Open your web browser and visit http://localhost:3000 to view the application.
+5. Open your web browser and visit http://localhost:3000 to view the application.
