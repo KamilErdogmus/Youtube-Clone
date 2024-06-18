@@ -35,7 +35,6 @@ To run the project locally, follow these steps:
 
 ````bash
 git clone https://github.com/KamilErdogmus/Youtube-Clone.git
-```
 ````
 
 2. Navigate to the project directory:
