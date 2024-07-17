@@ -21,7 +21,7 @@ This project is a YouTube clone developed using React and the YouTube API. It al
 
 ## Preview
 
-![YouTube Clone GIF](/YT-GIF.gif)
+![YouTube Clone GIF](YT-GIF.gif)
 
 ## Deployment
 
