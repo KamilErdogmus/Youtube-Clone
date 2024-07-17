@@ -27,6 +27,10 @@ This project is a YouTube clone developed using React and the YouTube API. It al
 
 The project is deployed and can be accessed [here](https://keen-frangipane-b484ce.netlify.app).
 
+## API
+
+[Docs](https://rapidapi.com/ytjar/api/yt-api)
+
 ## Installation
 
 To run the project locally, follow these steps:
